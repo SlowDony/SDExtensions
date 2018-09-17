@@ -9,14 +9,14 @@
 Pod::Spec.new do |s|
 
     s.name         = "SDExtensions"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.summary      = "SDExtensions扩展"
     s.description  = "SDExtensions的扩展"
     s.homepage     = "https://github.com/SlowDony/SDExtensions"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { "slowdony" => "435574793@qq.com" }
     s.social_media_url   = "https://weibo.com/u/2428779285"
-    s.source_files  = 'SDExtension/**/*.{h,m}'
+    s.source_files  = 'SDExtensions/**/*.{h,m}'
     s.source       = { :git => "https://github.com/SlowDony/SDExtensions.git", :tag => "#{s.version}" }
     s.ios.deployment_target = '8.0'
     s.frameworks = 'Foundation', 'UIKit','XCTest'

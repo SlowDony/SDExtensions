@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EF557EF3214EC6ED00508D9D /* SDExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF557EE9214EC6ED00508D9D /* SDExtensions.framework */; };
-		EF557EF8214EC6ED00508D9D /* SDExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF557EF7214EC6ED00508D9D /* SDExtensionsTests.m */; };
 		EF557EFA214EC6ED00508D9D /* SDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EF557EEC214EC6ED00508D9D /* SDExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF557F05214F485500508D9D /* SDViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF557F03214F485500508D9D /* SDViewController.h */; };
 		EF557F06214F485500508D9D /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF557F04214F485500508D9D /* SDViewController.m */; };
@@ -29,8 +28,6 @@
 		EF557EEC214EC6ED00508D9D /* SDExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDExtensions.h; sourceTree = "<group>"; };
 		EF557EED214EC6ED00508D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF557EF2214EC6ED00508D9D /* SDExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF557EF7214EC6ED00508D9D /* SDExtensionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDExtensionsTests.m; sourceTree = "<group>"; };
-		EF557EF9214EC6ED00508D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF557F03214F485500508D9D /* SDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
 		EF557F04214F485500508D9D /* SDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				EF557EEB214EC6ED00508D9D /* SDExtensions */,
-				EF557EF6214EC6ED00508D9D /* SDExtensionsTests */,
 				EF557EEA214EC6ED00508D9D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,15 +77,6 @@
 				EF557EED214EC6ED00508D9D /* Info.plist */,
 			);
 			path = SDExtensions;
-			sourceTree = "<group>";
-		};
-		EF557EF6214EC6ED00508D9D /* SDExtensionsTests */ = {
-			isa = PBXGroup;
-			children = (
-				EF557EF7214EC6ED00508D9D /* SDExtensionsTests.m */,
-				EF557EF9214EC6ED00508D9D /* Info.plist */,
-			);
-			path = SDExtensionsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF557EF8214EC6ED00508D9D /* SDExtensionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
