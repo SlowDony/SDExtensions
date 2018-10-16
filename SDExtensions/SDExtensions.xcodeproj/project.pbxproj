@@ -11,6 +11,16 @@
 		EF557EFA214EC6ED00508D9D /* SDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EF557EEC214EC6ED00508D9D /* SDExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF557F05214F485500508D9D /* SDViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF557F03214F485500508D9D /* SDViewController.h */; };
 		EF557F06214F485500508D9D /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF557F04214F485500508D9D /* SDViewController.m */; };
+		EF699E7E2175E5B200819D7C /* NSString+SDString.h in Headers */ = {isa = PBXBuildFile; fileRef = EF699E7C2175E5B200819D7C /* NSString+SDString.h */; };
+		EF699E7F2175E5B200819D7C /* NSString+SDString.m in Sources */ = {isa = PBXBuildFile; fileRef = EF699E7D2175E5B200819D7C /* NSString+SDString.m */; };
+		EF699E822175E5BD00819D7C /* UIImage+SDImage.h in Headers */ = {isa = PBXBuildFile; fileRef = EF699E802175E5BD00819D7C /* UIImage+SDImage.h */; };
+		EF699E832175E5BD00819D7C /* UIImage+SDImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF699E812175E5BD00819D7C /* UIImage+SDImage.m */; };
+		EF699E882175E5CA00819D7C /* UITextView+SDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF699E842175E5CA00819D7C /* UITextView+SDTextView.m */; };
+		EF699E892175E5CA00819D7C /* UIView+SDCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = EF699E852175E5CA00819D7C /* UIView+SDCorner.m */; };
+		EF699E8A2175E5CA00819D7C /* UITextView+SDTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF699E862175E5CA00819D7C /* UITextView+SDTextView.h */; };
+		EF699E8B2175E5CA00819D7C /* UIView+SDCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = EF699E872175E5CA00819D7C /* UIView+SDCorner.h */; };
+		EF699E912175E7E300819D7C /* UIBarButtonItem+SDBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EF699E8F2175E7E300819D7C /* UIBarButtonItem+SDBarButtonItem.m */; };
+		EF699E922175E7E300819D7C /* UIBarButtonItem+SDBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EF699E902175E7E300819D7C /* UIBarButtonItem+SDBarButtonItem.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +40,16 @@
 		EF557EF2214EC6ED00508D9D /* SDExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF557F03214F485500508D9D /* SDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
 		EF557F04214F485500508D9D /* SDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDViewController.m; sourceTree = "<group>"; };
+		EF699E7C2175E5B200819D7C /* NSString+SDString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SDString.h"; sourceTree = "<group>"; };
+		EF699E7D2175E5B200819D7C /* NSString+SDString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SDString.m"; sourceTree = "<group>"; };
+		EF699E802175E5BD00819D7C /* UIImage+SDImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SDImage.h"; sourceTree = "<group>"; };
+		EF699E812175E5BD00819D7C /* UIImage+SDImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SDImage.m"; sourceTree = "<group>"; };
+		EF699E842175E5CA00819D7C /* UITextView+SDTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+SDTextView.m"; sourceTree = "<group>"; };
+		EF699E852175E5CA00819D7C /* UIView+SDCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDCorner.m"; sourceTree = "<group>"; };
+		EF699E862175E5CA00819D7C /* UITextView+SDTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+SDTextView.h"; sourceTree = "<group>"; };
+		EF699E872175E5CA00819D7C /* UIView+SDCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDCorner.h"; sourceTree = "<group>"; };
+		EF699E8F2175E7E300819D7C /* UIBarButtonItem+SDBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SDBarButtonItem.m"; sourceTree = "<group>"; };
+		EF699E902175E7E300819D7C /* UIBarButtonItem+SDBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SDBarButtonItem.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +92,16 @@
 			isa = PBXGroup;
 			children = (
 				EF557EEC214EC6ED00508D9D /* SDExtensions.h */,
+				EF699E7C2175E5B200819D7C /* NSString+SDString.h */,
+				EF699E7D2175E5B200819D7C /* NSString+SDString.m */,
+				EF699E802175E5BD00819D7C /* UIImage+SDImage.h */,
+				EF699E812175E5BD00819D7C /* UIImage+SDImage.m */,
+				EF699E862175E5CA00819D7C /* UITextView+SDTextView.h */,
+				EF699E842175E5CA00819D7C /* UITextView+SDTextView.m */,
+				EF699E872175E5CA00819D7C /* UIView+SDCorner.h */,
+				EF699E852175E5CA00819D7C /* UIView+SDCorner.m */,
+				EF699E902175E7E300819D7C /* UIBarButtonItem+SDBarButtonItem.h */,
+				EF699E8F2175E7E300819D7C /* UIBarButtonItem+SDBarButtonItem.m */,
 				EF557F03214F485500508D9D /* SDViewController.h */,
 				EF557F04214F485500508D9D /* SDViewController.m */,
 				EF557EED214EC6ED00508D9D /* Info.plist */,
@@ -87,7 +117,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF557F05214F485500508D9D /* SDViewController.h in Headers */,
+				EF699E922175E7E300819D7C /* UIBarButtonItem+SDBarButtonItem.h in Headers */,
+				EF699E822175E5BD00819D7C /* UIImage+SDImage.h in Headers */,
 				EF557EFA214EC6ED00508D9D /* SDExtensions.h in Headers */,
+				EF699E7E2175E5B200819D7C /* NSString+SDString.h in Headers */,
+				EF699E8A2175E5CA00819D7C /* UITextView+SDTextView.h in Headers */,
+				EF699E8B2175E5CA00819D7C /* UIView+SDCorner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +222,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF699E832175E5BD00819D7C /* UIImage+SDImage.m in Sources */,
 				EF557F06214F485500508D9D /* SDViewController.m in Sources */,
+				EF699E882175E5CA00819D7C /* UITextView+SDTextView.m in Sources */,
+				EF699E892175E5CA00819D7C /* UIView+SDCorner.m in Sources */,
+				EF699E912175E7E300819D7C /* UIBarButtonItem+SDBarButtonItem.m in Sources */,
+				EF699E7F2175E5B200819D7C /* NSString+SDString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
